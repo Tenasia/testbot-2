@@ -48,7 +48,7 @@ def webhook():
             return request.args.get("hub.challenge")
 
         else:
-            return 'Bot not connected to Facebook. if this still shows up, it catches this.'
+            return 'Bot not connected to Facebook. if this still shows up, it catches this !!!.'
 
     elif request.method == "POST":
         payload = request.json
